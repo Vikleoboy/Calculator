@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    background-color: #42C2FF;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #B8FFF9;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.19);
+    height: auto;
+    width: 40%;
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+.keypad{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    background-color: #85F4FF;
+    border-radius: 10px;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_thing{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#instuff{
+    all: unset;
+    border-radius: 10px ;
+    height: 40px;
+    width: 100%;
+    box-shadow:  0px 0px 2px 1px rgba(0, 0, 0, 0.19) ;
+    transition: all 0.5s;
+    padding: 8px;
+    padding-right: 20px;
+    font-size: 35px;
+    background-color: #EFFFFD;
+    backdrop-filter: saturate(180%) blur(10px);
+    text-align: end;
+}
+
+#instuff:hover {
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.19);
+}
+/* button styleing  */
+
+.sections button {
+    all: unset;
+    background-color: #EFFFFD;
+    box-shadow:  0px 0px 3px 2px rgba(0, 0, 0, 0.19) ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 60px ;
+    width: 80px;
+    margin: 5px;
+    transition: all 0.5s;
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+.sections button:hover {
+    box-shadow:  0px 0px 3px 3px rgba(0, 0, 0, 0.19) ;
+}
+
+.keypad .sections:first-child{
+    margin-top: 10px;
+}
+.keypad .sections:last-child{
+    margin-bottom: 10px;
+}

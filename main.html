@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shit.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <script src="index.js"></script>
+    <script src="new.js"></script>
+</head>
+<body>
+    <h1>calculator </h1>
+    <div class="main">
+        <div class="input_thing">
+            <input id="instuff" type="text">
+        </div>
+        <div class="keypad">
+            <div class="sections">
+                <button onclick="cal.undo()"><i class="bi bi-arrow-90deg-left"></i></button>
+                <button onclick="cal.redu()"><i class="bi bi-arrow-90deg-right"></i></button>
+                <button onclick="cal.cl()">C</button>
+                <button onclick="cal.del()"><i class="bi bi-backspace-reverse"></i></button>
+            </div>
+            <div class="sections">
+                <button onclick="cal.one()">1</button>
+                <button onclick="cal.two()">2</button>
+                <button onclick="cal.three()">3</button>
+                <button onclick="cal.add()"><i class="bi bi-plus"></i></button>
+            </div>
+            <div class="sections">
+                <button onclick="cal.four()">4</button>
+                <button onclick="cal.five()">5</button>
+                <button onclick="cal.six()">6</button>
+                <button onclick="cal.sub()"><i class="bi bi-dash-lg"></i></button>
+            </div>
+            <div class="sections">
+                <button onclick="cal.seven()">7</button>
+                <button onclick="cal.eight()">8</button>
+                <button onclick="cal.nine()">9</button>
+                <button onclick="cal.mul()">*</button>
+            </div>
+            <div class="sections">
+                <button onclick="cal.zero()">0</button>
+                <button onclick="cal.eqa()">=</button>
+                <button onclick="cal.dec()" >.</button>
+                <button onclick="cal.div()"><i class="bi bi-slash-lg"></i></button>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>
