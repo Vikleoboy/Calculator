@@ -1,6 +1,31 @@
-document.addEventListener('DOMContentLoaded',()=>{
-   let instuff =  document.querySelector('#instuff')
-})
+// import app from 'electron'
+
+// console.log(app)
+
+
+// console.log(app, BrowserWindow)
+
+// const createWindow = () => {
+//     const win = new BrowserWindow({
+//       width: 800,
+//       height: 600
+//     })
+  
+//     win.loadFile('main.html')
+//   }
+
+// app.whenReady().then(() => {
+//     createWindow()
+// })
+
+// app.on('window-all-closed', () => {
+//     if (process.platform !== 'darwin') app.quit()
+// })
+
+
+// document.addEventListener('DOMContentLoaded',()=>{
+//    let instuff =  document.querySelector('#instuff')
+// })
 
 
 let cal = {

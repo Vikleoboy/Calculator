@@ -2,8 +2,10 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "commonjs",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +19,7 @@
     "url": "https://github.com/Vikleoboy/Calculator/issues"
   },
   "homepage": "https://github.com/Vikleoboy/Calculator#readme",
-  "dependencies": {
+  "devDependencies": {
     "electron": "^18.2.0"
   }
 }
