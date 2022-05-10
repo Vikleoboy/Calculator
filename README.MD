@@ -1,4 +1,4 @@
-# This a Calculator , just a stupid old calcuaor , 
+# This a Calculator , just a stupid old calculator , 
 
 to run it just clone the repo and run 
 
