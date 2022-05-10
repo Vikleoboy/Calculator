@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     height: 100vh;
     width: 100wh;
     display: flex;
@@ -6,8 +7,11 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    background-color: #42C2FF;
-}
+    background-color: #B8FFF9;
+    
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.19);
+    
+}   
 
 .main {
     display: flex;

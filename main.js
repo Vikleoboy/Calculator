@@ -8,7 +8,9 @@ console.log(app, BrowserWindow)
 const createWindow = () => {
     const win = new BrowserWindow({
       width: 400,
-      height: 500
+      height: 500,
+      resizable: false,
+      title : 'Calculator'
     })
   
     win.loadFile('main.html')
